@@ -496,6 +496,11 @@ main {
 
 .navbar-link.active { color: var(--orange-yellow-crayola); }
 
+.project-link:hover,
+.project-link:focus { color: var(--light-gray-70); }
+
+.project-link.active { color: var(--orange-yellow-crayola); }
+
 
 
 
@@ -851,6 +856,13 @@ main {
   line-height: 1.6;
 }
 
+.timeline-text-2 {
+  color: var(--light-gray);
+  font-weight: var(--fw-300);
+  line-height: 1.6;
+  margin-bottom: 30;
+}
+
 
 /**
  * skills 
@@ -996,6 +1008,15 @@ main {
   transition: var(--transition-1);
 }
 
+.resizable-image {
+  max-width: 100%; /* Ensures the image doesn't exceed its container */
+  height: auto; /* Allows the image to adjust its height accordingly */
+}
+
+.video-container {
+  text-align: center;
+}
+
 .project-item > a:hover .project-img::before { background: hsla(0, 0%, 0%, 0.5); }
 
 .project-item-icon-box {
@@ -1015,12 +1036,12 @@ main {
   transition: var(--transition-1);
 }
 
-.project-item > a:hover .project-item-icon-box {
+/* .project-item > a:hover .project-item-icon-box {
   --scale: 1;
   opacity: 1;
 }
 
-.project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; }
+.project-item-icon-box ion-icon { --ionicon-stroke-width: 50px; } */
 
 .project-img img {
   width: 100%;
@@ -1029,7 +1050,7 @@ main {
   transition: var(--transition-1);
 }
 
-.project-item > a:hover img { transform: scale(1.1); }
+/* .project-item > a:hover img { transform: scale(1.1); } */
 
 .project-title,
 .project-category { margin-left: 10px; }

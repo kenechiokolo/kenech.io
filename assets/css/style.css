@@ -1009,8 +1009,8 @@ main {
 }
 
 .resizable-image {
-  max-width: 100%; /* Ensures the image doesn't exceed its container */
-  height: auto; /* Allows the image to adjust its height accordingly */
+  max-width: 50%; /* Ensures the image doesn't exceed its container */
+  max-height: 667; /* Allows the image to adjust its height accordingly */
 }
 
 .video-container {

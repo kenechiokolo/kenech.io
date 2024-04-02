@@ -1023,6 +1023,7 @@ main {
   max-width: 50%; /* Ensures the image doesn't exceed its container */
   max-height: 667; /* Allows the image to adjust its height accordingly */
   text-align: center;
+  border-radius: 30;
 }
 
 .video-container {
